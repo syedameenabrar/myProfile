@@ -3861,3 +3861,21 @@ input:-internal-autofill-selected {
 .grecaptcha-badge {
     visibility: hidden;
 }
+
+
+@media (max-width: 570px){
+.d-lg-inline-block {
+    display: inline-block !important;
+    width: 60px;
+    margin-top: -30px;
+    position: absolute;
+}
+
+.myName{
+    display: none !important;
+}
+
+.p-2 {
+    padding: 0.2rem !important;
+}
+}
